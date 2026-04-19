@@ -3,7 +3,13 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import joblib
 import sqlite3
+import logging
 
+#logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+    
 #load model
 model=joblib.load("student_model.pkl")
 scaler=joblib.load("student_scaler.pkl")
@@ -36,9 +42,11 @@ def predict(data:Student):
     cursor.execute("INSERT INTO Predictions VALUES(?,?,?,?)",(data.hours_studied,data.sleep_hours,data.previous_score,float(prediction)))
     conn.commit()
     conn.close()
+     # log to Render console
+    logging.info(f"Input: {features} | Prediction: {prediction}")
     return {"prediction":prediction}
 
    #file logging
-    import logging
-    logging.basicConfig(filename="logs.log",level=logging.INFO)
-    logging.info(f"input:{features},prediction:{prediction}")
+    
+   # logging.basicConfig(filename="logs.log",level=logging.INFO)
+    #logging.info(f"input:{features},prediction:{prediction}")
