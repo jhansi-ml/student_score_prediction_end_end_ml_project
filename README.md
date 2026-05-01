@@ -41,7 +41,7 @@ Previous Scores
 Target: Final score  
 
 **Model performance**  
-Achieved R² score of 0.99 
+Achieved R² score of 0.9
 
 **Sample input and output**  
 Input 
