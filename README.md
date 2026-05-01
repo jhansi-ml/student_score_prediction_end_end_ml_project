@@ -40,6 +40,9 @@ Sleep hours
 Previous Scores  
 Target: Final score  
 
+**Model performance**  
+Achieved R² score of 0.99 
+
 **Sample input and output**  
 Input 
 {  
