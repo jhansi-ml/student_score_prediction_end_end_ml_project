@@ -16,29 +16,27 @@ Prediction logging using SQLite
 👉 https://student-score-prediction-end-end-ml-wy13.onrender.com/docs
 
 **Tech Stack**  
-Python
-FastAPI
-Scikit-learn
-Pandas / NumPy
-SQLite
-Joblib
-Render (Deployment)
+Python  
+FastAPI  
+Scikit-learn  
+Pandas / NumPy  
+SQLite  
+Joblib  
+Render (Deployment)  
 
-**Project structure:**
-📁database.ipynb       #Model training script
-📁student_fastapi.py   #FastAPI app
-📁student_model.pkl    #Trained ML model
-📁student_scaler.pkl   #scaler-preprocesing
-📁predictions.db       #SQLite database
-📁requirement.txt      #required libraries
+**Project structure:**  
+📁database.ipynb       #Model training script  
+📁student_fastapi.py   #FastAPI app  
+📁student_model.pkl    #Trained ML model  
+📁student_scaler.pkl   #scaler-preprocesing  
+📁predictions.db       #SQLite database  
+📁requirement.txt      #required libraries 
 
-**Model Details**
-Algorithm: Linear Regression Model
-
-Features used:
-Study Hours
-Sleep hours
-Previous Scores
-
-Target: Final score
+**Model Details**  
+Algorithm: Linear Regression Model  
+Features used:  
+Study Hours  
+Sleep hours  
+Previous Scores  
+Target: Final score  
 
