@@ -1,4 +1,4 @@
-# student_score_prediction_end_end_ml_project
+# Student_score_prediction_end_to_end_ml_project
 **🛩️Overview**  
 This project is an end-to-end Machine Learning application that predicts a student’s score based on various input features like study hours, previous scores, and other factors.
 
