@@ -54,3 +54,8 @@ Output
 {  
   "predicted_score": 78.5,  
 }  
+
+👨‍💻 **Author**  
+Jhansi Konamoni  
+GitHub: https://github.com/jhansi-ml  
+LinkedIn: https://www.linkedin.com/in/jhansi-konamoni 
