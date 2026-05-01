@@ -40,3 +40,13 @@ Sleep hours
 Previous Scores  
 Target: Final score  
 
+Sample Input
+{
+  "hours_studied": 5,
+  "sleep_hours":7
+  "previous_score": 70,
+}
+Sample Output
+{
+  "predicted_score": 78.5,
+}
