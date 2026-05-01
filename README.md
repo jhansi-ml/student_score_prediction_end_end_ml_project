@@ -40,7 +40,7 @@ Sleep hours
 Previous Scores  
 Target: Final score  
 
-**Sample input and output**
+**Sample input and output**  
 Input 
 {  
   "hours_studied": 5,  
